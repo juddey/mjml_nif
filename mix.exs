@@ -31,7 +31,7 @@ defmodule Mjml.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:rustler, "~> 0.21"},
+      {:rustler,github: "juddey/rustler", branch: "master"},
       {:ex_doc, "~> 0.23", only: :dev, runtime: false}
     ]
   end
